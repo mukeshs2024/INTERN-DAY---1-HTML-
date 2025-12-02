@@ -1,0 +1,85 @@
+
+ .chapter-title {
+    color: rgb(239, 29, 29);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.chapter1 {
+    color: darkred;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.chapter2 {
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.chapter3 {
+    color: darkblue;
+    text-decoration: underline;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.paragraph {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.chapter1 + .paragraph {
+    border: 6px solid darkred;
+    box-shadow: 5px 5px 0px darkred;
+    margin: 15px 0;
+    margin-top: 100;
+}
+
+.chapter2 + .paragraph {
+    border: 6px dashed darkgreen;
+    box-shadow: 5px 5px 0px darkgreen;
+    margin: 15px 0;
+}
+
+.chapter3 + .paragraph {
+    border: 6px dotted darkblue;
+    box-shadow: 5px 5px 0px darkblue;
+    margin: 15px 0;
+}
+
+h1 {
+    color: blue;   
+}
+
+p {
+    color: green;
+    
+}
+
+.box1 {
+    background-color: rgb(102, 246, 70);
+    color: rgb(225, 255, 127);
+    padding: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.box2 {
+    background-color: rgb(30, 95, 199);
+    color: rgb(199, 245, 14);
+    padding: 15px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+
